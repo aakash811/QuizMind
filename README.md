@@ -1,38 +1,118 @@
-# Welcome to Your Project
+# QuizMind — AI-Powered Quiz Application
 
-## Project Info
+Welcome to **QuizMind**, an intelligent quiz platform built with modern web technologies.  
+It provides an interactive quiz experience with real-time scoring, a clean UI, and smooth performance.
 
-**URL:** https://quiz-mind-eight.vercel.app/
-
----
-
-## Demo Video
-
-Click below to watch the walkthrough of the project:
-
-[![Watch the Demo](https://img.shields.io/badge/Watch%20Demo-Loom-blue?logo=loom)](https://www.loom.com/share/c68dfc0d794f48ff9e5d9d9544f35a1e)
+**Live Demo:** https://quiz-mind-eight.vercel.app/  
+**Walkthrough Video:** *(Loom link)*
 
 ---
 
-## How to Edit This Code
+## Project Structure
 
-There are several ways to edit and work with this project.
+Below is the project’s folder hierarchy:
+
+QuizMind/
+├── public/
+│ ├── icons/
+│ ├── images/
+│ └── favicon.ico
+|
+├── src/
+│ ├── assets/
+│ │ ├── icons/
+│ │ └── images/
+│ │
+│ ├── components/
+│ │ ├── ui/
+│ │ │ ├── Button.tsx
+│ │ │ ├── Card.tsx
+│ │ │ └── Loader.tsx
+│ │ │
+│ │ ├── quiz/
+│ │ │ ├── QuizCard.tsx
+│ │ │ ├── QuizTimer.tsx
+│ │ │ └── QuestionDisplay.tsx
+│ │ │
+│ │ ├── layout/
+│ │ ├── Navbar.tsx
+│ │ └── Footer.tsx
+|
+│ ├── pages/
+│ │ ├── Home.tsx
+│ │ ├── Quiz.tsx
+│ │ └── Result.tsx
+|
+│ ├── hooks/
+│ │ └── useQuiz.ts
+|
+│ ├── lib/
+│ │ ├── utils.ts
+│ │ └── constants.ts
+|
+│ ├── styles/
+│ │ └── globals.css
+|
+│ ├── App.tsx
+│ ├── main.tsx
+│ └── vite-env.d.ts
+|
+├── .gitignore
+├── index.html
+├── package.json
+├── tsconfig.json
+├── vite.config.ts
+└── README.md
+
+yaml
+Copy code
 
 ---
 
-### 1. Use Your Preferred IDE
+## Features
 
-If you want to work locally using your own IDE, follow these steps:
+- Smart quiz logic with smooth question navigation  
+- Built-in timer to manage quiz duration  
+- Result summary with detailed score feedback  
+- Modern UI built with Tailwind CSS  
+- High performance powered by Vite + React  
+- Reusable, modular component architecture  
 
+---
+
+## Tech Stack
+
+- **Frontend:** React + TypeScript  
+- **Styling:** Tailwind CSS  
+- **Build Tool:** Vite  
+- **Deployment:** Vercel  
+
+---
+
+## How to Run Locally
+
+### 1. Clone the Repository
 ```sh
-# Step 1: Clone the repository using the project's Git URL.
 git clone https://github.com/aakash811/QuizMind.git
-
-# Step 2: Navigate to the project directory.
 cd QuizMind
-
-# Step 3: Install the necessary dependencies.
+2. Install Dependencies
+sh
+Copy code
 npm install
-
-# Step 4: Start the development server with auto-reloading and instant preview.
+3. Start the Development Server
+sh
+Copy code
 npm run dev
+Build for Production
+sh
+Copy code
+npm run build
+Contributing
+Contributions, issues, and feature requests are welcome.
+Feel free to open a PR or raise an issue.
+
+License
+This project is licensed under the MIT License.
+
+yaml
+Copy code
