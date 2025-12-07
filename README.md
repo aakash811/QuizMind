@@ -27,7 +27,8 @@ cd QuizMind
 npm install
 
 # Step 4: Start the development server with auto-reloading and instant preview.
-npm run dev
+npm run dev```
+
 
 2. Edit Files Directly on GitHub
 
