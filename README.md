@@ -6,6 +6,14 @@
 
 ---
 
+## Demo Video
+
+Click below to watch the walkthrough of the project:
+
+[![Watch the Demo](https://img.shields.io/badge/Watch%20Demo-Loom-blue?logo=loom)](https://www.loom.com/share/c68dfc0d794f48ff9e5d9d9544f35a1e)
+
+---
+
 ## How to Edit This Code
 
 There are several ways to edit and work with this project.
