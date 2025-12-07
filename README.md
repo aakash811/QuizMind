@@ -4,7 +4,7 @@ Welcome to **QuizMind**, an intelligent quiz platform built with modern web tech
 It provides an interactive quiz experience with real-time scoring, a clean UI, and smooth performance.
 
 **Live Demo:** https://quiz-mind-eight.vercel.app/  
-**Walkthrough Video:** *(Loom link)*
+**Walkthrough Video:** https://www.loom.com/share/c68dfc0d794f48ff9e5d9d9544f35a1
 
 ---
 
