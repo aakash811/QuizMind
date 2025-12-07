@@ -12,60 +12,64 @@ It provides an interactive quiz experience with real-time scoring, a clean UI, a
 
 Below is the project’s folder hierarchy:
 
-QuizMind/
-├── public/
-│ ├── icons/
-│ ├── images/
-│ └── favicon.ico
-|
-├── src/
-│ ├── assets/
-│ │ ├── icons/
-│ │ └── images/
-│ │
-│ ├── components/
-│ │ ├── ui/
-│ │ │ ├── Button.tsx
-│ │ │ ├── Card.tsx
-│ │ │ └── Loader.tsx
-│ │ │
-│ │ ├── quiz/
-│ │ │ ├── QuizCard.tsx
-│ │ │ ├── QuizTimer.tsx
-│ │ │ └── QuestionDisplay.tsx
-│ │ │
-│ │ ├── layout/
-│ │ ├── Navbar.tsx
-│ │ └── Footer.tsx
-|
-│ ├── pages/
-│ │ ├── Home.tsx
-│ │ ├── Quiz.tsx
-│ │ └── Result.tsx
-|
-│ ├── hooks/
-│ │ └── useQuiz.ts
-|
-│ ├── lib/
-│ │ ├── utils.ts
-│ │ └── constants.ts
-|
-│ ├── styles/
-│ │ └── globals.css
-|
-│ ├── App.tsx
-│ ├── main.tsx
-│ └── vite-env.d.ts
-|
-├── .gitignore
-├── index.html
-├── package.json
-├── tsconfig.json
-├── vite.config.ts
-└── README.md
-
-yaml
-Copy code
+📦QuizMind-main
+ ┣ 📂public
+ ┃ ┣ 📜placeholder.svg
+ ┃ ┗ 📜robots.txt
+ ┣ 📂src
+ ┃ ┣ 📂components
+ ┃ ┃ ┣ 📜ErrorScreen.tsx
+ ┃ ┃ ┣ 📜LoadingSpinner.tsx
+ ┃ ┃ ┣ 📜NavLink.tsx
+ ┃ ┃ ┣ 📜QuestionCard.tsx
+ ┃ ┃ ┣ 📜ThemeToggle.tsx
+ ┃ ┃ ┗ 📜TopicCard.tsx
+ ┃ ┣ 📂context
+ ┃ ┃ ┗ 📜QuizContext.tsx
+ ┃ ┣ 📂hooks
+ ┃ ┃ ┣ 📜use-mobile.tsx
+ ┃ ┃ ┗ 📜use-toast.ts
+ ┃ ┣ 📂integrations
+ ┃ ┃ ┗ 📂supabase
+ ┃ ┃ ┃ ┣ 📜client.ts
+ ┃ ┃ ┃ ┗ 📜types.ts
+ ┃ ┣ 📂lib
+ ┃ ┃ ┗ 📜utils.ts
+ ┃ ┣ 📂pages
+ ┃ ┃ ┣ 📜Index.tsx
+ ┃ ┃ ┗ 📜NotFound.tsx
+ ┃ ┣ 📂screens
+ ┃ ┃ ┣ 📜QuestionGeneratorScreen.tsx
+ ┃ ┃ ┣ 📜QuizScreen.tsx
+ ┃ ┃ ┣ 📜ResultScreen.tsx
+ ┃ ┃ ┗ 📜TopicSelectionScreen.tsx
+ ┃ ┣ 📂utils
+ ┃ ┃ ┗ 📜aiClient.ts
+ ┃ ┣ 📜App.css
+ ┃ ┣ 📜App.tsx
+ ┃ ┣ 📜index.css
+ ┃ ┣ 📜main.tsx
+ ┃ ┗ 📜vite-env.d.ts
+ ┣ 📂supabase
+ ┃ ┣ 📂functions
+ ┃ ┃ ┣ 📂generate-feedback
+ ┃ ┃ ┃ ┗ 📜index.ts
+ ┃ ┃ ┗ 📂generate-questions
+ ┃ ┃ ┃ ┗ 📜index.ts
+ ┃ ┗ 📜config.toml
+ ┣ 📜.gitignore
+ ┣ 📜components.json
+ ┣ 📜eslint.config.js
+ ┣ 📜index.html
+ ┣ 📜package-lock.json
+ ┣ 📜package.json
+ ┣ 📜postcss.config.js
+ ┣ 📜README.md
+ ┣ 📜tailwind.config.ts
+ ┣ 📜tsconfig.app.json
+ ┣ 📜tsconfig.json
+ ┣ 📜tsconfig.node.json
+ ┗ 📜vite.config.ts
 
 ---
 
