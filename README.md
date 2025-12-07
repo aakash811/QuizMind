@@ -91,28 +91,27 @@ Copy code
 
 ## How to Run Locally
 
+## How to Run Locally
+
 ### 1. Clone the Repository
 ```sh
 git clone https://github.com/aakash811/QuizMind.git
 cd QuizMind
-2. Install Dependencies
-sh
-Copy code
+```
+
+### 2. Install Dependencies
+```sh 
 npm install
-3. Start the Development Server
-sh
-Copy code
+```
+
+### 3. Start the Development Server
+```sh 
 npm run dev
-Build for Production
-sh
-Copy code
-npm run build
-Contributing
+```
+
+### Contributing
 Contributions, issues, and feature requests are welcome.
 Feel free to open a PR or raise an issue.
 
-License
+### License
 This project is licensed under the MIT License.
-
-yaml
-Copy code
