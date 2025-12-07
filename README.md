@@ -2,7 +2,7 @@
 
 ## Project Info
 
-**URL:** https://your-project-url-here
+**URL:** https://quiz-mind-eight.vercel.app/
 
 ---
 
